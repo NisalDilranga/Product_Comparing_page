@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import { IoIosAlert } from "react-icons/io";
+import ReactPlayer from 'react-player/youtube';
 
 const ProductDetails = () => {
   const [products, setProducts] = useState([]);
@@ -72,7 +73,17 @@ const ProductDetails = () => {
                   </div>
                 </div>
                 <div className="product_brand">
-                  <img src={product.brand} alt={product.name} />
+                  {/* <img src={product.brand} alt={product.name} /> */}
+                  <ReactPlayer 
+        url={product.reference} 
+        width="150px"
+        height='80px'
+        className="react-player"
+        light
+       
+       
+
+      />
 
                   <p>
                     <a href="#">ALL PRICES</a>

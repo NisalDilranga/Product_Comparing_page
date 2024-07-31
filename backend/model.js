@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 // id = auto increement
 const productSchema = new mongoose.Schema({
     name: String,
-    brand: String,
+    reference: String,
     price: Number,
     specs: String,
     image: String

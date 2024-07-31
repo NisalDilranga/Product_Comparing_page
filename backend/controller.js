@@ -12,7 +12,7 @@ const getProducts = (req, res, next) => {
 const addProduct = (req, res, next) => {
   const newProduct = new Product({
     name: req.body.name,
-    brand: req.body.brand,
+    reference: req.body.reference,
     price: req.body.price,
     specs: req.body.specs,
     image: req.body.image,

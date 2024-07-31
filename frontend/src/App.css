@@ -145,12 +145,13 @@
   background-color: #e0e2e4;
   cursor: pointer;
 }
-.product_brand img {
-  width: 150px;
-  height: 80px;
+.react-player {
+
   position: relative;
   top: -300px;
-  left: 126px;
+  left: 270px;
+  
+
 }
 .product_brand p > a {
   color: red;

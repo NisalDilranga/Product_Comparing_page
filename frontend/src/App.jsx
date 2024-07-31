@@ -3,6 +3,7 @@ import DetailsTable from "./Components/DetailsTable";
 import Header from "./Components/Header";
 import ProductDetails from "./Components/ProductDetails";
 
+
 function App() {
   return (
     <>
