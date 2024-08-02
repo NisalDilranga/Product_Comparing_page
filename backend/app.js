@@ -17,6 +17,14 @@ app.get("/products", async (req, res) => {
     console.log(error);
   }
 });
+// app.get('/products/:name', async (req, res) => {
+//   try {
+//       const products = await controler.getProductsByName.find({ name: req.params.name });
+//       res.json(products);
+//   } catch (error) {
+//       res.status(500).send(error);
+//   }
+// });
 app.post("/addproduct", async (req, res) => {
   try {
     await controler.addProduct(req.body, (cb) => {

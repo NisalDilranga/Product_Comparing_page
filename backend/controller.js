@@ -9,6 +9,16 @@ const getProducts = (req, res, next) => {
       res.json({ error });
     });
 };
+// const getProductsByName = (req, res, next) => {
+//   Product.find()
+//     .then((response) => {
+//       res.json({ response });
+//     })
+//     .catch((error) => {
+//       res.json({ error });
+//     });
+// };
+
 const addProduct = (req, res, next) => {
   const newProduct = new Product({
     name: req.body.name,
@@ -28,3 +38,4 @@ const addProduct = (req, res, next) => {
 };
 exports.getProducts = getProducts;
 exports.addProduct = addProduct;
+// exports.getProductsByName = getProductsByName;
