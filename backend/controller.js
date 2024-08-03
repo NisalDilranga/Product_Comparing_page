@@ -26,6 +26,10 @@ const addProduct = (req, res, next) => {
     price: req.body.price,
     specs: req.body.specs,
     image: req.body.image,
+    network: req.body.network,
+    launchdate: req.body.launchdate,
+    bodydata: req.body.bodydata,
+    size:req.body.size
   });
   newProduct
     .save()
