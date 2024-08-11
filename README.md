@@ -1,5 +1,6 @@
+# React + Vite + Node + Express + MongoDB
 ##  [🔗 Links](https://productcompairing.netlify.app/)
-MERN App (It Can be get 5-7 min to loard data because use free hosting services to host this app
+ (This Can be get 5-7 min to loard data because use free hosting services to host this app
 render for backend and netlify for frontend)
 
 
